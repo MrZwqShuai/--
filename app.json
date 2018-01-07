@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/components/components",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微商门店模板",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png",
+        "text": "门店"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-active.png",
+        "text": "详细信息"
+      },
+      {
+        "pagePath": "pages/memb/memb",
+        "iconPath": "images/memb.png",
+        "selectedIconPath": "images/memb-active.png",
+        "text": "个人中心"
+      }
+    ],
+    "selectedColor": "#d81e06"
+  }
+}

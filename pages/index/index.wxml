@@ -1,0 +1,19 @@
+<!--index.wxml-->
+  <!-- <view class="nav-container">
+  </view> -->
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx-key="2" class="banner-container">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!--显示门店地理位置  -->
+<view hover-class='dark-geo' class='store-adress'>门店地址</view>
+<view hover-class='dark-geo' class='store-adress'>门店信息</view>
+<view hover-class='dark-geo' class='store-adress'>开店时间</view>
+<view hover-class='dark-geo' class='store-adress'>门店照片</view>
+
+
+<view hover-class='dark-geo' class='store-adress'>反馈问题</view>
