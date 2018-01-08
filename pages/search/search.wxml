@@ -1,2 +1,4 @@
 <!--pages/search/search.wxml-->
-<text>pages/search/search.wxml</text>
+<view class='img-details'>
+<image src='./images/tooopen_sy_143912755726.jpg' mode='scaleToFill'></image>
+</view>

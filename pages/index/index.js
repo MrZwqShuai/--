@@ -6,9 +6,9 @@ Page({
   data: {
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      './images/tooopen_sy_143912755726.jpg',
+      './images/tooopen_sy_175866434296.jpg',
+      './images/tooopen_sy_175833047715.jpg'
     ],
     indicatorDots: true,
     autoplay: true,
@@ -34,6 +34,13 @@ Page({
       duration: e.detail.value
     })
   },
+  goBannerDetails() {
+    console.log(2)
+    wx.navigateTo({
+      url: '/pages/search/search',
+    })
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

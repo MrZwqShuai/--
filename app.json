@@ -20,7 +20,7 @@
         "text": "门店"
       },
       {
-        "pagePath": "pages/search/search",
+        "pagePath": "pages/searchs/searchs",
         "iconPath": "images/search.png",
         "selectedIconPath": "images/search-active.png",
         "text": "详细信息"
